@@ -1,0 +1,31 @@
+body {
+text-align: center;
+}
+
+#principal {
+display: grid;
+width: 350px;
+margin: 50px auto;
+padding: 10px;
+text-decoration: 10px 10px #0aa7b0;
+border: 29px solid #999999;
+background-color: #0b64ca
+    height=100%;
+    overflow: hidden;
+    border-image:url("diamonds.png")29 stretch;
+
+}
+
+
+
+#titulo {
+font: oblique bold 200% cursive;
+ text-shadow: rgba(238, 4, 137, 0.5) 3px 3px 5px;
+color: hsla(180, 3%, 87%, 0.5);
+background-color: rgb(4, 4, 4);
+}
+
+@font-face {
+font-family: 'MiNuevaFuente';
+src: url('font.ttf');
+}
